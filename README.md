@@ -207,3 +207,23 @@ X_kitti =  y_cam ｜ Y_kitti = -z_cam ｜ Z_kitti = x_cam
 见 [`requirements.txt`](requirements.txt)。
 
 主要依赖由 OpenHUTB 的 whl 自动带入：`numpy`、`opencv-contrib-python`、`msgpack-rpc-python`。
+
+---
+
+## 🙏 致谢
+
+| 项目 | 用途 | 协议 |
+|---|---|---|
+| [**OpenHUTB**](https://github.com/OpenHUTB/hutb) | 仿真环境（CARLA 内核 + 无人机/水下载具扩展） | MIT |
+| [CARLA](https://carla.org/) | 自动驾驶仿真器内核 | MIT |
+| [KITTI](http://www.cvlibs.net/datasets/kitti/) | 数据集标注格式参照 | CC BY-NC-SA 3.0 |
+| [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) | 目标检测（后续使用） | AGPL-3.0 |
+
+> 本项目代码采用 MIT 协议。仿真场景资产的版权归 OpenHUTB 及各原始资产作者所有。
+
+---
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Yuan Wang
+
