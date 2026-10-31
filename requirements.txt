@@ -1,0 +1,7 @@
+# OpenHUTB 的 whl 会自动带入以下依赖，此处仅作版本参考
+# 装 OpenHUTB 包（导入名是 carla，不是 hutb）：
+#   pip install "D:/code_work/OpenHUTB/hutb/PythonAPI/carla/dist/hutb-2.10.1-cp313-cp313-win_amd64.whl"
+
+numpy>=2.0
+opencv-contrib-python>=4.8
+msgpack-rpc-python>=0.4.1

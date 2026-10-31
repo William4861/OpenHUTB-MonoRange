@@ -1,0 +1,31 @@
+# ---- 数据集（体积大，不进仓库）----
+dataset/
+*.png
+*.jpg
+!samples/*.jpg
+!samples/*.png
+
+# ---- 模型权重 ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# ---- 临时 ----
+_verify/
+*.log
